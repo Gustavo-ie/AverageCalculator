@@ -20,7 +20,11 @@ public class AverageCalculator {
         Scanner Mykb = new Scanner(System.in);
         System.out.println("First Grade");
         float g1 = Mykb.nextFloat();
-
+        System.out.println("Second Grade");
+        float g2 = Mykb.nextFloat();
+        float a = (g1+g2)/2;
+        System.out.println("Your grade average is " + a);
+        
     }
     
 }
