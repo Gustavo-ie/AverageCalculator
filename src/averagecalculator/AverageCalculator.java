@@ -4,6 +4,8 @@
  */
 package averagecalculator;
 
+import java.util.Scanner;
+
 /**
  *
  * @author gusta
@@ -15,6 +17,10 @@ public class AverageCalculator {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner Mykb = new Scanner(System.in);
+        System.out.println("First Grade");
+        float g1 = Mykb.nextFloat();
+
     }
     
 }
