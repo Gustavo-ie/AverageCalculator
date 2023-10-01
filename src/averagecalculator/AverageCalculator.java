@@ -24,7 +24,9 @@ public class AverageCalculator {
         float g2 = Mykb.nextFloat();
         float a = (g1+g2)/2;
         System.out.println("Your grade average is " + a);
-        
+        if (a>9){
+            System.out.println("Congratulations dear student!");
+        }
     }
     
 }
