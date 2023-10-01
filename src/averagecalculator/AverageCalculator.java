@@ -27,6 +27,9 @@ public class AverageCalculator {
         if (a>9){
             System.out.println("Congratulations dear student!");
         }
+        if (a<6){
+            System.out.println("Be carefull with your grades you might fail!");
+        }
     }
     
 }
